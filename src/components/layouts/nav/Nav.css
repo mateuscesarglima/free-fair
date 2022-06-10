@@ -1,0 +1,22 @@
+.navigation {
+    background-color: #DDD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+
+}
+
+.logo-box-title{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list-box{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 2rem;
+}
