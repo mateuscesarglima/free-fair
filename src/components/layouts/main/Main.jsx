@@ -1,11 +1,13 @@
 import React from 'react'
 import Localization from '../localization/Localization'
+import Produtos from '../produtos/Produtos'
 
 const Main = () => {
   return (
-    <div>
+    <main>
       <Localization />
-    </div>
+      <Produtos />
+    </main>
   )
 }
 

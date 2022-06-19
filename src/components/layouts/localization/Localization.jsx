@@ -3,7 +3,7 @@ import SectionStart from '../SectionStart/SectionStart';
 
 const Localization = () => {
   return (
-      <section className="localization">
+      <section className="localization" id="localization-section">
         <SectionStart>Localização</SectionStart>
         <iframe
           title="localização da feira da parangaba"

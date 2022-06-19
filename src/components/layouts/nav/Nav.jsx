@@ -13,7 +13,7 @@ const Nav = () => {
           <Link customClass="nav-btn" to='produtos-section'>Produtos</Link>
         </li>
         <li className='list-box-item'>
-          <Link customClass="nav-btn" to='localização-section'>localização</Link>
+          <Link customClass="nav-btn" to='localization-section'>localização</Link>
         </li>
         <li className='list-box-item'>
           <Link customClass="nav-btn" to='feirantes-section'>Feirantes</Link>
