@@ -1,28 +1,28 @@
-
-import Link from '../Link/Link'
+import iconImg from "../../../img/logos/carrinho.png"
+import Link from '../Link/LinkButton'
 import './Nav.css'
 
 const Nav = () => {
   return (
     <nav className='navigation'>
       <div className="logo-box">
-        <span className='logo-box-title'>Feira Livre</span>
+        <img src={iconImg} className="logoImg" alt="logo carrinho de compras" />
       </div>
       <ul className='list-box'>
         <li className='list-box-item'>
-          <Link to='produtos-section'>Produto</Link>
+          <Link className="nav-btn" to='produtos-section'>Produtos</Link>
         </li>
         <li className='list-box-item'>
-          <Link to='localização-section'>localização</Link>
+          <Link className="nav-btn" to='localização-section'>localização</Link>
         </li>
         <li className='list-box-item'>
-          <Link to='feirantes-section'>Feirantes</Link>
+          <Link className="nav-btn" to='feirantes-section'>Feirantes</Link>
         </li>
         <li className='list-box-item'>
-          <Link to='depoimentos-section'>Depoimentos</Link>
+          <Link className="nav-btn" to='depoimentos-section'>Depoimentos</Link>
         </li>
         <li className='list-box-item'>
-          <Link to='sobre-mim-section'>Sobre mim</Link>
+          <Link className="nav-btn" to='sobre-mim-section'>Sobre mim</Link>
         </li>
       </ul>
     </nav>

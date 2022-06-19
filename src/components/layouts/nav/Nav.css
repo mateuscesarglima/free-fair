@@ -1,10 +1,8 @@
 .navigation {
-    background-color: #DDD;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 3rem;
-
+    padding: 1rem 4.8rem;
 }
 
 .logo-box-title{
@@ -20,3 +18,16 @@
     gap: 2rem;
     font-size: 2rem;
 }
+
+.list-box{
+    color: #FFF;
+    font-weight: 700;
+}
+
+.list-box-item:hover{
+    color: #5DD9C1;
+    cursor: pointer;
+    box-shadow: 0 0 0 4px #5DD9C1;
+    border-radius: 2px;
+}
+

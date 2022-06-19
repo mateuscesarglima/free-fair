@@ -1,0 +1,26 @@
+
+header {
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 1),
+      rgba(34, 34, 34, 0.7)
+    ), url('../../../img/carouselImg/feira3.png');
+  height: 80rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid var(--primary-color);
+  position: relative;
+}
+
+.hero-section-box{
+  padding: 12.8rem 0 9.6rem 0
+}
+
+.hero{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+
+
