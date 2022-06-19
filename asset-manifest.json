@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/free-fair/static/css/main.4ed5469c.css",
+    "main.js": "/free-fair/static/js/main.05e7ca2b.js",
+    "static/media/feira3.png": "/free-fair/static/media/feira3.82d49cf43d9a997fb97c.png",
+    "static/media/frutas.png": "/free-fair/static/media/frutas.fb2ad0c50fbbd120abda.png",
+    "static/media/peixes.png": "/free-fair/static/media/peixes.73001b427284a7a89c10.png",
+    "static/media/tomate.png": "/free-fair/static/media/tomate.7722bc12ffb64eefdfa6.png",
+    "index.html": "/free-fair/index.html",
+    "main.4ed5469c.css.map": "/free-fair/static/css/main.4ed5469c.css.map",
+    "main.05e7ca2b.js.map": "/free-fair/static/js/main.05e7ca2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ed5469c.css",
+    "static/js/main.05e7ca2b.js"
+  ]
+}
