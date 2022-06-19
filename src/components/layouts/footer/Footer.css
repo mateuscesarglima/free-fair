@@ -1,0 +1,41 @@
+.footer {
+  border-top: 2px solid #333;
+  background-color: #ddd;
+}
+
+.grid--footer {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.header-container img {
+  cursor: pointer;
+}
+
+.social-links {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  font-size: 3rem;
+}
+
+.footer-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.footer-list-item{
+  cursor: pointer;
+}
+
+.footer-list-item:hover{
+  color: #e8590c
+}
+
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  list-style: none;
+  font-size: 1.8rem;
+}
