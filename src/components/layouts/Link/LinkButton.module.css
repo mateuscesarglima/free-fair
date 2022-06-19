@@ -1,0 +1,21 @@
+.nav-btn{
+  padding: 10px;
+}
+
+.btn-saiba-mais{
+  color: #333;
+  font-weight: 700;
+  background-color: #DDD;
+  border-radius: 5px;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.btn-saiba-mais:hover{
+  color: #c7ede6;
+  background-color: #333;
+  box-shadow: 0 0 0 2px  #c7ede6;
+}

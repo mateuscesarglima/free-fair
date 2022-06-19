@@ -10,19 +10,19 @@ const Nav = () => {
       </div>
       <ul className='list-box'>
         <li className='list-box-item'>
-          <Link className="nav-btn" to='produtos-section'>Produtos</Link>
+          <Link customClass="nav-btn" to='produtos-section'>Produtos</Link>
         </li>
         <li className='list-box-item'>
-          <Link className="nav-btn" to='localização-section'>localização</Link>
+          <Link customClass="nav-btn" to='localização-section'>localização</Link>
         </li>
         <li className='list-box-item'>
-          <Link className="nav-btn" to='feirantes-section'>Feirantes</Link>
+          <Link customClass="nav-btn" to='feirantes-section'>Feirantes</Link>
         </li>
         <li className='list-box-item'>
-          <Link className="nav-btn" to='depoimentos-section'>Depoimentos</Link>
+          <Link customClass="nav-btn" to='depoimentos-section'>Depoimentos</Link>
         </li>
         <li className='list-box-item'>
-          <Link className="nav-btn" to='sobre-mim-section'>Sobre mim</Link>
+          <Link customClass="nav-btn" to='sobre-mim-section'>Sobre mim</Link>
         </li>
       </ul>
     </nav>

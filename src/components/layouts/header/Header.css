@@ -8,7 +8,6 @@ header {
   width: 100%;
   background-size: cover;
   background-position: center;
-  border-bottom: 2px solid var(--primary-color);
   position: relative;
 }
 
@@ -17,9 +16,17 @@ header {
 }
 
 .hero{
-  max-width: 120rem;
+  max-width: 130rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+}
+
+.informacoes-parangaba{
+  font-size: 2rem;
+  color: #FFF;
+  letter-spacing: 0.1rem;
+  line-height: 1.05;
+  margin-bottom: 5rem;
 }
 
 

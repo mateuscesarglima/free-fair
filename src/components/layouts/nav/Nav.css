@@ -24,10 +24,7 @@
     font-weight: 700;
 }
 
-.list-box-item:hover{
-    color: #5DD9C1;
+.list-box-item:hover {
+    box-shadow: 0 5px 0  #C7EDE6;
     cursor: pointer;
-    box-shadow: 0 0 0 4px #5DD9C1;
-    border-radius: 2px;
-}
-
+  }
