@@ -19,13 +19,6 @@ body {
   font-weight: 400;
 }
 
-p{
-  font-size: 2rem;
-  color: #FFF;
-  letter-spacing: 0.1rem;
-  line-height: 1.05;
-}
-
 .heading-primary{
   font-size: 5.2rem;
   font-weight: 700;
@@ -47,6 +40,8 @@ p{
   gap: 9.6rem;
 }
 
+
+
 .grid-2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -54,4 +49,9 @@ p{
 .grid-4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+
+.center-testimonials{
+  justify-items: center;
+}
+
 
