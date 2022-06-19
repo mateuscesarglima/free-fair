@@ -9,7 +9,7 @@ import "./Depoimentos.css";
 
 const Depoimentos = () => {
   return (
-    <section className="depoimentos-section">
+    <section className="depoimentos-section" id="depoimentos-section">
       <SectionStart>Depoimentos</SectionStart>
       <Container>
         <div className="testimonials grid grid-2-cols center-testimonials">

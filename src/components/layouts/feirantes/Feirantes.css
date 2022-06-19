@@ -1,0 +1,28 @@
+.feirantes-card-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9rem;
+  justify-items: center;
+}
+
+.feirante-card img{
+  width: 100%;
+}
+
+.feirante-name{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.feirante-list{
+  font-size: 1.2rem;
+}
+
+.feirante-text-box{
+  padding: 2.4rem 2.4rem;
+}
+
+.feirante-list-item{
+  font-size: 2rem;
+}
+
