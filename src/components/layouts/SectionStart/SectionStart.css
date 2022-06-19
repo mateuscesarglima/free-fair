@@ -1,0 +1,12 @@
+.sections-title-box{
+  background-color: #333;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+}
+
+.title{
+  color: #FFF;
+  text-align: center;
+  padding: 5rem;
+  font-size: 3rem;
+}

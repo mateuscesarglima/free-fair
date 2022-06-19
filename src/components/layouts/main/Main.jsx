@@ -1,9 +1,10 @@
 import React from 'react'
+import Localization from '../localization/Localization'
 
 const Main = () => {
   return (
     <div>
-      <h1>MAIN</h1>
+      <Localization />
     </div>
   )
 }
