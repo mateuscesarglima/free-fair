@@ -1,33 +1,31 @@
 .navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 4.8rem;
 }
 
-.logo-box-title{
-    font-size: 3rem;
-    font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+.logo-box-title {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
 }
 
-.list-box{
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-    font-size: 2rem;
+.list-box {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-size: 2rem;
 }
 
-.list-box{
-    color: #FFF;
-    font-weight: 700;
+.list-box {
+  color: #fff;
+  font-weight: 700;
 }
 
-.list-box-item:hover{
-    color: #5DD9C1;
-    cursor: pointer;
-    box-shadow: 0 0 0 4px #5DD9C1;
-    border-radius: 2px;
+.list-box-item:hover {
+  box-shadow: 0 5px 0  #C7EDE6;
+  cursor: pointer;
 }
 

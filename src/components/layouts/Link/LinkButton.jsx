@@ -1,9 +1,11 @@
-import {Link, animateScroll as scroll} from 'react-scroll'
+import { Link } from 'react-scroll'
+import styles from "./LinkButton.module.css"
 
-const LinkButton = ({ children, to }) => {
+
+const LinkButton = ({ children, to, customClass }) => {
     return (
         <Link 
-            style={{padding: "5px"}}
+            className={`${styles[customClass]}`}
             to={to}
             activeClass="active"
             spy={true}
